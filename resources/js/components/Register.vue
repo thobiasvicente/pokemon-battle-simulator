@@ -34,6 +34,8 @@
                 
             </form>
         <h1 id="wf" style="opacity:0;width: 600px; margin-top:1.1em;display:none; margin-bottom:1em">Thank you</h1>
+
+    </div>
 </template>
 
 <script>

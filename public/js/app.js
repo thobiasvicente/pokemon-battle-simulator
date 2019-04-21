@@ -38294,8 +38294,155 @@ render._withStripped = true
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function () {}
-var staticRenderFns = []
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "container" }, [
+      _c("div", { staticClass: "navigation" }, [
+        _c("ol", [
+          _c("li", [
+            _c("a", { attrs: { href: "#", "data-ref": "uname" } }, [
+              _vm._v("Username")
+            ])
+          ]),
+          _vm._v(" "),
+          _c("li", [
+            _c("a", { attrs: { href: "#", "data-ref": "email" } }, [
+              _vm._v("Email")
+            ])
+          ]),
+          _vm._v(" "),
+          _c("li", [
+            _c("a", { attrs: { href: "#", "data-ref": "viewpswd" } }, [
+              _vm._v("Password")
+            ])
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("form", { staticClass: "sign-form", attrs: { id: "sign-form" } }, [
+        _c("ol", { staticClass: "questions" }, [
+          _c("li", [
+            _c("span", [
+              _c("label", { attrs: { for: "uname" } }, [
+                _vm._v("Hi, What is your Name?")
+              ])
+            ]),
+            _vm._v(" "),
+            _c("input", {
+              staticClass: "active",
+              attrs: {
+                id: "uname",
+                name: "uname",
+                type: "text",
+                placeholder: "Enter your name",
+                autofocus: ""
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("li", [
+            _c("span", [
+              _c("label", { attrs: { for: "email" } }, [
+                _vm._v("Enter you email")
+              ])
+            ]),
+            _vm._v(" "),
+            _c("input", {
+              attrs: {
+                id: "email",
+                name: "email",
+                type: "text",
+                placeholder: "Email",
+                autofocus: ""
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("li", [
+            _c("span", [
+              _c("label", { attrs: { for: "password" } }, [
+                _vm._v("Choose a password")
+              ])
+            ]),
+            _vm._v(" "),
+            _c("input", {
+              attrs: {
+                id: "viewpswd",
+                name: "password",
+                type: "text",
+                placeholder: "this your password"
+              }
+            }),
+            _vm._v(" "),
+            _c("input", {
+              attrs: {
+                id: "password",
+                name: "password",
+                type: "password",
+                placeholder: "make sure you dont forget",
+                autofocus: ""
+              }
+            }),
+            _vm._v(" "),
+            _c("span", { staticClass: "view", attrs: { id: "show-pwd" } })
+          ]),
+          _vm._v(" "),
+          _c("li", [
+            _c(
+              "p",
+              {
+                staticStyle: {
+                  "margin-top": "45px",
+                  "font-size": "32pt",
+                  float: "right"
+                }
+              },
+              [
+                _c(
+                  "a",
+                  {
+                    staticStyle: { color: "white", "text-decoration": "none" },
+                    attrs: { href: "#", id: "signup" }
+                  },
+                  [_vm._v("sign up")]
+                )
+              ]
+            )
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { attrs: { id: "next-page", alt: "Kiwi standing on oval" } }),
+        _vm._v(" "),
+        _c("div", { staticClass: "error-message" })
+      ]),
+      _vm._v(" "),
+      _c(
+        "h1",
+        {
+          staticStyle: {
+            opacity: "0",
+            width: "600px",
+            "margin-top": "1.1em",
+            display: "none",
+            "margin-bottom": "1em"
+          },
+          attrs: { id: "wf" }
+        },
+        [_vm._v("Thank you")]
+      )
+    ])
+  }
+]
+render._withStripped = true
 
 
 
@@ -50984,8 +51131,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\Thobias\Documents\projetos\pokemon-battle\pokemon-battle\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\Thobias\Documents\projetos\pokemon-battle\pokemon-battle\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\Users\Thobias\Documents\projetos\battle-pokemon-new\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\Thobias\Documents\projetos\battle-pokemon-new\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
